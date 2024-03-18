@@ -1,0 +1,60 @@
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALORIE CALCULATOR</title>
+    <link rel="stylesheet" href="css/calorie.css">
+</head>
+<body>
+    <div class="calorie">
+        <div class="heading"><h2>GET YOUR CALORIE</h2></div>
+        <div class="control">
+            <form>
+                <h3>Age</h3>
+                <input type="text" id="age" value="28"/>
+
+                <div class="gender">
+                    <h3>Gender</h3>
+                    <input type="radio" id="male" value="male" name="gender"/>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="female" name="gender"/>
+                    <label for="male">Female</label>
+                </div>
+                <div class="height">       
+                <h3>Height</h3>
+                <input type="text" id="height" value="180"/>
+                <div class="unit">cm</div>
+                </div>
+
+                <div class="weight">
+                <h3>Weight</h3>
+                <input type="text" id="weight" value="65"/>
+                <div class="unit">kg</div>
+                </div>
+                <div class="activity">
+                    <label for="act">Select your workout status</label>
+
+                    <select name="activity" id="activity">
+                      <option value="Sedentary">Sedentary</option>
+                      <option value="Lightly Active">Lightly Active</option>
+                      <option value="Moderately Active">Moderately Active</option>
+                      <option value="Very Active">Very Active</option>
+                      <option value="Extra Active">Extra Active</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+
+        <div class="result">
+            <button class="calculate" id="btn">Calculate</button>
+
+            <div class="massage"><span class="calories">1640</span>Calories per day</div>
+            <div class="error">
+                <p>Please enter all the details correctly</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/calorie.js"></script>
+</body>
+</html>

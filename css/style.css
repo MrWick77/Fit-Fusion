@@ -1,0 +1,112 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background:url('https://source.unsplash.com/1600x900/?gym,fitness,muscle,muscle,athlete,abs,dumbells,deadlift');
+    background-repeat: no-repeat;
+    font-family: 'kanit',cursive;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 32px;
+    top: 20px;
+
+}
+.left img{
+    width: 110px;
+}
+.left div{
+    color: aliceblue;
+    text-align: center;
+    line-height: 12px;
+    font-size: 17px;
+}
+.mid{
+    
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 30px;
+}
+.btn{
+    font-family: 'kanit',cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    padding: 3px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(67, 66, 66);
+}
+.btn img{
+    width: 30px;
+    filter: invert(100%);
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 122px 52px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    font-family: 'kanit';
+}
+.navbar{
+    display: inline-block;
+   
+}
+.navbar li{
+    display: inline-block;
+    font-size: 23px;
+   
+}
+.navbar li a{  
+    color: aliceblue;
+    text-decoration: none;
+    padding:20px 15px;
+    margin: auto;
+}
+.navbar li a:hover{
+    
+    color: aliceblue;
+    text-decoration: underline;
+    color: orangered;
+    padding:20px 15px;
+    margin:auto
+    
+}
+.form-group input{
+    font-family: 'kanit'cursive;
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 74%;
+
+}

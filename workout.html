@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFusion</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/workout.css">
+<body>
+<header class="header">
+    <!-- Your existing header content here -->
+</header>
+
+<div class="container">
+    <h1 >Get Your Fitness Score</h1>
+    <div class="fitness-container">
+        <h2>Fitness Calculator</h2>
+        <form class="fitness-form">
+            <div class="form-group">
+                <label for="height">Height (in cm):</label>
+                <input type="text" id="height" name="height" placeholder="Enter your height">
+            </div>
+            <div class="form-group">
+                <label for="weight">Weight (in kg):</label>
+                <input type="text" id="weight" name="weight" placeholder="Enter your weight">
+            </div>
+            <div class="form-group">
+                <label for="pushup">Push-Up Count:</label>
+                <div id="push">
+                <input type="text" id="pushset" name="pushup-set" placeholder="Set count">
+                <input type="text" id="pushrep" name="pushup-rep" placeholder="Rep count">
+            </div>
+            </div>
+            <div class="form-group" >
+                <label for="pullup">Pull-Up Count:</label>
+                <div id="pull">
+                <input type="text" id="pullset" name="pullup-set" placeholder="Set count">
+                <input type="text" id="pullrep" name="pullup-rep" placeholder="Rep count">
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="squat">Squat Count:</label>
+                <div id="squat">
+                <input type="text" id="squatset" name="squatset" placeholder="Set count">
+                <input type="text" id="squatrep" name="squatrep" placeholder="Rep count">
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="goal">Body Goal:</label>
+                <select id="goal" name="goal">
+                    <option value="aesthetic">Aesthetic</option>
+                    <option value="bulky">Bulky</option>
+                    <option value="jacked">Jacked</option>
+                    <option value="shredded">Shredded</option>
+                </select>
+            </div>
+            <button type="button" id="btn" onclick="calculateFitness()">Calculate</button>
+            
+        </form>
+        <div id="info"></div> 
+
+        <button id="generate-workout" style="display: none;" onclick="generateWorkout()">Generate Workout Plan</button>
+        <div id="workout-plan"></div>
+        
+    </div>
+</div>
+
+<script src="js/workout.js"></script>
+
+</body>
+</html>

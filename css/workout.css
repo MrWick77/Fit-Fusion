@@ -1,0 +1,121 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_1280.jpg');
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'kanit',cursive;
+    color: rgb(243, 238, 238);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.fitness-container {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 50px auto;
+    padding: 30px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 2px 2px #181818
+}
+
+.fitness-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fitness-form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+.fitness-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+}
+
+.fitness-form input[type="text"],
+.fitness-form select {
+    color: #dfdcdc;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    border: 1px solid #dfdcdc;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+    padding: 12px
+}
+.fitness-form input::placeholder{
+    color: aliceblue;
+}
+.fitness-form #push{
+    display: flex;
+    justify-content: space-between;
+}
+.fitness-form #pull{
+    display: flex;
+    justify-content: space-between;
+}
+.fitness-form #squat{
+    display: flex;
+    justify-content: space-between;
+}
+.fitness-form #pushset{
+    left: -9rem;
+}
+.fitness-form #pullset{
+    left: -9rem;
+}
+.fitness-form #squatset{
+    left: -9rem;
+}
+.fitness-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(39, 25, 25);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5rem;
+    
+}
+.fitness-form button:hover{
+    box-shadow: 1px 1px 10px #e66a05;
+}
+#info {
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#generate-workout {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(52, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+
+  #generate-workout:hover{
+    box-shadow: 1px 1px 10px #e66a05;
+  }
+  #workout-plan{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+  

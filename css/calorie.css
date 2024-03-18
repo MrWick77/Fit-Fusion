@@ -1,0 +1,102 @@
+body{
+    background-image: url('https://source.unsplash.com/1600x900/?health,healthy foods,juices,protien,carbohydrates,fibre');
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'kanit',cursive;
+    color: rgb(243, 238, 238);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    text-align: center;
+}
+.calorie{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    box-shadow: 2px 2px 2px #181818;
+}
+.calorie form #female{
+    margin-left: 50px;
+}
+.calorie form .height, .calorie form .weight {
+    position: relative;
+}
+.activity label{
+    font-size: 1.2rem;
+}
+.activity select {
+    color: #ebe2e2;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 200;
+    border: 1px solid #dfdcdc;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+    padding: 12px;
+    margin-top: 1.5rem;
+}
+
+#weight, #height, #age {
+    color: #dfdcdc;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    border: 1px solid #dfdcdc;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+}
+#weight.invalid , #height.invalid ,#age.invalid{
+    border: 1px solid red;
+}
+.calorie form .unit{
+    position: absolute;
+    right: 100px;
+    top:45px;
+    color: #777;
+}
+
+#btn{
+    font-size: inherit;
+    margin-top: 10px;
+    border: none;
+    color:#ffdbc1;
+    background-color: #272829;
+    width: 150px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+#btn:hover{
+    box-shadow: 1px 1px 10px #e66a05;
+}
+.calorie .result .calories{
+    color: #e66a05;
+    font-size: 38px;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.calorie .result .error{
+    font-size: 19px;
+    color: red;
+    display: none;
+}
+.calorie .result .error.active{
+   display: block;
+}
